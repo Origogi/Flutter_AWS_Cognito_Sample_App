@@ -29,7 +29,7 @@ class _SignUpScreenState extends State<SignUpScreen> {
         message = e.message;
       } else {
         print(e.message);
-        message = 'Unknown client error occurred';
+        message = e.message;
       }
     } catch (e) {
       message = 'Unknown error occurred';
