@@ -9,8 +9,8 @@ import 'package:http/http.dart' as http;
 import 'package:shared_preferences/shared_preferences.dart';
 
 // Setup AWS User Pool Id & Client Id settings here:
-const _awsUserPoolId = 's-west-2_nfF2YdlBr';
-const _awsClientId = '515rue4ritd15pis3o7amut7rc';
+const _awsUserPoolId = 'us-west-2_MDsgG3C6u';
+const _awsClientId = '36p9qdev3t9gp210c3mfuaq3dk';
 
 const _identityPoolId = 'ap-southeast-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
 
