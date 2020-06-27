@@ -23,6 +23,10 @@ https://docs.aws.amazon.com/ko_kr/cognito/latest/developerguide/what-is-amazon-c
 
 [Medium](https://medium.com/@wesselsbernd/flutter-and-aws-as-of-march-2019-1ad7f40fa9e4)
 
+## Web version
+
+https://origogi.github.io/Flutter_AWS_Cognito_Sample_App/#/
+
 ## TODO
 
 - [ ] Analyze flutter-cognito plug in
