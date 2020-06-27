@@ -23,7 +23,7 @@ jobs:
           # type configurations: your user.email and user.name followed lines 
           # git config --global user.email your_email 
           # git config --global user.name your_name 
-          git config --global user.email origogi.kim@sk.com
+          git config --global user.email rlawjdxo1212@naver.com
           git config --global user.name origogi
           git status
           git remote add origin https://${{secrets.commit_secret}}@github.com/Origogi/Flutter_AWS_Cognito_Sample_App.git
