@@ -11,7 +11,9 @@ class SignUpScreen extends StatefulWidget {
 class _SignUpScreenState extends State<SignUpScreen> {
   final GlobalKey<FormState> _formKey = GlobalKey<FormState>();
   User _user = User();
-  final userService = UserService(userPool);
+
+  String _poolID = "";
+  String _clientID = "";
 
   void submit(BuildContext context) async {
     _formKey.currentState.save();
@@ -19,6 +21,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
     String message;
     bool signUpSuccess = false;
     try {
+      UserService userService =
+          UserService(CognitoUserPool(_poolID, _clientID));
+
       _user = await userService.signUp(_user.email, _user.password, _user.name);
       signUpSuccess = true;
       message = 'User sign up successful!';
@@ -73,6 +78,24 @@ class _SignUpScreenState extends State<SignUpScreen> {
               key: _formKey,
               child: ListView(
                 children: <Widget>[
+                  ListTile(
+                    leading: const Icon(Icons.web),
+                    title: TextFormField(
+                      decoration: InputDecoration(labelText: 'Pool ID'),
+                      onSaved: (String poolID) {
+                        _poolID = poolID;
+                      },
+                    ),
+                  ),
+                  ListTile(
+                    leading: const Icon(Icons.web),
+                    title: TextFormField(
+                      decoration: InputDecoration(labelText: 'Client ID'),
+                      onSaved: (String clientID) {
+                        _clientID = clientID;
+                      },
+                    ),
+                  ),
                   ListTile(
                     leading: const Icon(Icons.account_box),
                     title: TextFormField(
