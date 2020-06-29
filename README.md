@@ -31,4 +31,4 @@ https://origogi.github.io/Flutter_AWS_Cognito_Sample_App/#/
 
 - [x] Analyze flutter-cognito plug in
 - [x] Implement `Sign up`
-- [ ] check to interwork flutter client and AWS-Cognito
+- [ ]Implement `Log in`
