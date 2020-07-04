@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_aws_cognito_example/page/securecounter.dart';
 
 import '../main.dart';
-import 'conformation.dart';
+import 'confirmation.dart';
 
 class LoginScreen extends StatefulWidget {
   LoginScreen({Key key, this.email}) : super(key: key);

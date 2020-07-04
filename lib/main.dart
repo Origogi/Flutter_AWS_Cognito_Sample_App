@@ -4,7 +4,7 @@ import 'dart:convert';
 import 'package:amazon_cognito_identity_dart_2/cognito.dart';
 import 'package:amazon_cognito_identity_dart_2/sig_v4.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_aws_cognito_example/page/conformation.dart';
+import 'package:flutter_aws_cognito_example/page/confirmation.dart';
 import 'package:flutter_aws_cognito_example/page/login.dart';
 import 'package:flutter_aws_cognito_example/page/signup.dart';
 import 'package:http/http.dart' as http;
