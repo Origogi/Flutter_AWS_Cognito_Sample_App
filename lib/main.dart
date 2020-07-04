@@ -12,12 +12,11 @@ import 'package:shared_preferences/shared_preferences.dart';
 const _awsUserPoolId = 'us-west-2_MDsgG3C6u';
 const _awsClientId = '36p9qdev3t9gp210c3mfuaq3dk';
 
-const _identityPoolId = 'ap-southeast-1:xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxxx';
+const _identityPoolId = 'us-west-2:01875e1e-c020-482f-b789-9628fb1c6f28';
 
 // Setup endpoints here:
 const _region = 'us-west-2';
-const _endpoint =
-    'https://xxxxxxxxxx.execute-api.ap-southeast-1.amazonaws.com/dev';
+const _endpoint = 'https://coazikyeong.auth.us-west-2.amazoncognito.com';
 
 final userPool = CognitoUserPool(_awsUserPoolId, _awsClientId);
 
@@ -539,7 +538,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return _userService;
   }
 
-  submit(BuildContext context) async {
+  void submit(BuildContext context) async {
     _formKey.currentState.save();
     String message;
     try {
