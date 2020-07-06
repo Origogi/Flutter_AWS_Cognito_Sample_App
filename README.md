@@ -33,3 +33,4 @@ https://origogi.github.io/Flutter_AWS_Cognito_Sample_App/#/
 - [x] Implement `Sign up`
 - [x] Implement `Confirm account` 
 - [ ] Implement `Log in`
+- [ ] Adapt Github CI/CD
