@@ -1,8 +1,8 @@
 // Setup AWS User Pool Id & Client Id settings here:
-const awsUserPoolId = 'us-west-2_MDsgG3C6u';
-const awsClientId = '36p9qdev3t9gp210c3mfuaq3dk';
+const awsUserPoolId = 'us-west-2_Y6e3yV2cB';
+const awsClientId = 'jsl65edus3a5h5ljvfe6ls4fi';
 
-const identityPoolId = 'us-west-2:01875e1e-c020-482f-b789-9628fb1c6f28';
+const identityPoolId = 'us-west-2:e3bb5b57-026a-4066-9df1-75c21f01b377';
 
 // Setup endpoints here:
 const region = 'us-west-2';
