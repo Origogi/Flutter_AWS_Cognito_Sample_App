@@ -7,7 +7,7 @@ packages:
       name: amazon_cognito_identity_dart_2
       url: "https://pub.dartlang.org"
     source: hosted
-    version: "0.1.14"
+    version: "0.1.15"
   async:
     dependency: transitive
     description:
@@ -211,5 +211,5 @@ packages:
     source: hosted
     version: "2.0.8"
 sdks:
-  dart: ">=2.7.0 <3.0.0"
+  dart: ">=2.9.0-14.0.dev <3.0.0"
   flutter: ">=1.12.13+hotfix.5 <2.0.0"
