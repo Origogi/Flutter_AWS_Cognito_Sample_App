@@ -1,4 +1,6 @@
 // Setup AWS User Pool Id & Client Id settings here:
+import 'package:amazon_cognito_identity_dart_2/cognito.dart';
+
 const awsUserPoolId = 'us-west-2_Y6e3yV2cB';
 const awsClientId = 'jsl65edus3a5h5ljvfe6ls4fi';
 

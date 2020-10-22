@@ -13,6 +13,10 @@ dependencies:
   amazon_cognito_identity_dart_2: ^0.1.15
   shared_preferences: ^0.5.6
 
+  amplify_core: '<1.0.0'
+  amplify_auth_cognito: '<1.0.0'
+  amplify_analytics_pinpoint: '<1.0.0'
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
